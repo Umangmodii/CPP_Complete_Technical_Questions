@@ -5,7 +5,7 @@ using namespace std;
 
 int main()
 {
-    int decimal =5;
+    int decimal = 5;
 
     bitset<32> binary(decimal);
 
