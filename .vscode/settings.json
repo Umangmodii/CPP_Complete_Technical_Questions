@@ -104,6 +104,8 @@
     "forward_list": "cpp",
     "list": "cpp",
     "regex": "cpp",
-    "valarray": "cpp"
-  }
+    "valarray": "cpp",
+    "chrono": "cpp"
+  },
+  "C_Cpp.errorSquiggles": "disabled"
 }
