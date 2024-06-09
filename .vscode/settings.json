@@ -105,7 +105,8 @@
     "list": "cpp",
     "regex": "cpp",
     "valarray": "cpp",
-    "chrono": "cpp"
+    "chrono": "cpp",
+    "thread": "cpp"
   },
   "C_Cpp.errorSquiggles": "disabled"
 }
