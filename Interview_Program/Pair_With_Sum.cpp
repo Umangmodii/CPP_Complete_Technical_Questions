@@ -12,7 +12,7 @@ void pair_sum(int array[],int key,int n)
         {
             if(array[i] + array[j] == key)
             {
-               found = true;
+                found = true;
                 cout << "Found Elements are : ( " << array[i] << "," << array[j] << " )";
             }
         }

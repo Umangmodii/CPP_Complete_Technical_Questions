@@ -1,27 +1,22 @@
 #include <iostream>
-#include <cstring>
 #include <string>
 
 using namespace std;
 
 int main()
 {
-    char str1[20];
-    char str2[20];
+    string str1, str2;
 
-    cout << "Enter the String 1 : ";
-    cin.getline(str1,25);
+    cout << "Enter the first string: ";
+    getline(cin, str1);
 
-    cout << endl;
+    cout << "Enter the second string: ";
+    getline(cin, str2);
 
-    cout << "Enter the String 2 : ";
-    cin.getline(str2,25);
+    // Concatenate str2 to str1 using the + operator
+    str1 += str2;
 
-    strcat(str1,str2);
-
-    cout << "String1 is : " << str1 << endl;    
-    cout << "String2 is : " << str2 << endl;
-
-
+    cout << "Concatenated string: " << str1 << endl;
+    
     return 0;
 }
